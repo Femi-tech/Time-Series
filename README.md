@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # A Yen For The Future
 
 ## Background

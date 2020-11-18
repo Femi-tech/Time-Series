@@ -29,7 +29,7 @@ Linear Regression Modeling
 
 ## Conclusion
 
-![Test Image 1](ImagesScreen%20Shot%202020-08-27%20at%2010.07.20%20PM.png)
+![Test Image 1](Images/Screen%20Shot%202020-08-27%20at%2010.07.20%20PM.png)
 
 ![Test Image 2](Images/ARIMA.png)
 

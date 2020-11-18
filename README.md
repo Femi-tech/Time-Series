@@ -3,6 +3,7 @@
 
 ## Background
 
+![Background](Images/Time-Series-Analysis.jpg)
 The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies. Hedge funds, too, are keenly interested in anything that will give them a consistent edge in predicting currency movements.
 In this Analysis, I will test my data using the ARMA, ARIMA, and GARCH models in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
 
@@ -28,17 +29,17 @@ Linear Regression Modeling
 
 ## Conclusion
 
-![Test Image 1](https://github.com/natyrrr/A_Yen_For_The_Future/blob/master/Screen%20Shot%202020-08-27%20at%2010.07.20%20PM.png)
+![Test Image 1](ImagesScreen%20Shot%202020-08-27%20at%2010.07.20%20PM.png)
 
-![Test Image 2](https://github.com/natyrrr/A_Yen_For_The_Future/blob/master/ARIMA.png)
+![Test Image 2](Images/ARIMA.png)
 
-![Test Image 3](https://github.com/natyrrr/A_Yen_For_The_Future/blob/master/SETTLE%20VS.%20TREND.png)
+![Test Image 3](Images/SETTLE%20VS.%20TREND.png)
 
-![Test Image 4](https://github.com/natyrrr/A_Yen_For_The_Future/blob/master/5%20days%20return.png)
+![Test Image 4](Images/5%20days%20return.png)
 
-![Test Image 5](https://github.com/natyrrr/A_Yen_For_The_Future/blob/master/GARCH.png)
+![Test Image 5](Images/GARCH.png)
 
-![Test Image 6](https://github.com/natyrrr/A_Yen_For_The_Future/blob/master/Volatility.png)
+![Test Image 6](Images/Volatility.png)
 
 Based on the time series analysis, I would not feel confident buying Yen because both the ARIMA model and the ARMA model have a P > 0.05. Therefore they are not significant. However, the GARCH model is significant predicting volatility.This is important when trading derivitives because as per this model it states the volatility will keep increasing in the next 5 days, therefore trading derivitives would be your best option.The GARCH model is also useful to quantify you're maximum loss as you can calculate what you're risk is in purchasing Yen.
 
@@ -60,12 +61,3 @@ I would not feel comfortable using these models to trade. ARMA and ARIMA are not
 
 In this particular model, The out of sample performed slightly better than the In-sample data. The Out-of-sample had a root mean squared error of 0.415, while the in-sample data has an RMSE of .596. From this data I would say the model has a "good" fit. 
 
-
-
-
-
-
-
-=======
-# Time-Series Homework
->>>>>>> 76a0364ea7ae9b04880d2394648146580e620632
